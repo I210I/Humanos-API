@@ -26,25 +26,26 @@ dotnet restore
 "ConnectionStrings": {
   "DefaultConnection": "Host=localhost;Database=apiHumano;Username=tu-usuario;Password=tu-contraseña;"
 }
+```
 
 4. Aplicar las migraciones a la base de datos:
-dotnet ef database update
-
-en caso de no poder actualizar, entonces primero borrar el paquete Migrations y ejecutar:
+   dotnet ef database update
+  
+en caso de no poder actualizar, entonces primero borrar el paquete Migrations y ejecutar:  
 dotnet ef migrations add InitialCreate
 
 5. Ejecutar la API (en su defecto de no utilizar VS)
-dotnet run
+   dotnet run
 
 La API ahora estará escuchando en http://localhost:5000 y https://localhost:5001. o en el puerto 7095 con la autodocumentación de swagger.
 
 # Uso
 La API soporta las siguientes operaciones:
 
-GET /Humano: Devuelve una lista de todos los humanos en la base de datos.
-GET /Humano/{id}: Devuelve el humano con el ID especificado.
-POST /Humano: Crea un nuevo humano.
-PUT /Humano/{id}: Actualiza el humano con el ID especificado.
+GET /Humano: Devuelve una lista de todos los humanos en la base de datos.  
+GET /Humano/{id}: Devuelve el humano con el ID especificado.  
+POST /Humano: Crea un nuevo humano.  
+PUT /Humano/{id}: Actualiza el humano con el ID especificado.  
 GET /Humano/Mock: Devuelve una lista estática de humanos para propósitos de prueba.
 
 El MathController es un controlador API diseñado para realizar operaciones matemáticas básicas como sumar (+), restar (-), multiplicar (*) y dividir (/). Este controlador ofrece dos métodos principales: uno que acepta solicitudes POST y otro que acepta solicitudes GET.
