@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9vNCeVPyArSHIvl3ra4wRVlnIZPk6OL6W9YbNq44+FygF91tUl9bIBRBL+hTaK4nTSWZUui5JvSY/BVP23iV+g==",
+  "dgSpecHash": "ID0NKu4KIcCLanpJar/41Nmr477lImhvNCdXJCFG+G5Gg6mgIBC+ILG5JV73e8+Qcez+8m571yG+9yhU8cVSZA==",
   "success": true,
-  "projectFilePath": "D:\\Datos\\Codes\\Portfolio\\Humano\\Api.csproj",
+  "projectFilePath": "D:\\Datos\\Codes\\Portfolio\\Humanos-API\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\210-PC\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\210-PC\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",

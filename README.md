@@ -51,8 +51,8 @@ El MathController es un controlador API diseñado para realizar operaciones mate
 
 ## Endpoints
 
-POST math/operacionmatematica
-POST math/operacionmatematica
+GET operacion/matematica
+POST operacion/matematica
 
 Descripción: Realiza una operación matemática especificada en el cuerpo de la solicitud.
 Request Body:

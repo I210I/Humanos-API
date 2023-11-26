@@ -7,10 +7,10 @@ namespace Api.Controllers
 
     [Route("[controller]")]
     [ApiController]
-    public class MathController : ControllerBase
+    public class OperacionController : ControllerBase
     {
-        // POST math/operacionmatematica
-        [HttpPost("operacionmatematica")]
+        // POST Operacion/matematica
+        [HttpPost("matematica")]
         public IActionResult PostOperacionMatematica([FromBody] OperacionRequest request)
         {
             if (!ModelState.IsValid)
@@ -22,8 +22,8 @@ namespace Api.Controllers
             
         }
 
-        // GET math/operacionmatematica
-        [HttpGet("operacionmatematica")]
+        // GET Operacion/matematica
+        [HttpGet("matematica")]
         public IActionResult GetOperacionMatematica([FromHeader] int a, [FromHeader] int b, [FromHeader] string operacion)
         {
             if (!new Regex(@"[\+\-\*/]").IsMatch(operacion))
