@@ -26,6 +26,7 @@ dotnet restore
 "ConnectionStrings": {
   "DefaultConnection": "Host=localhost;Database=apiHumano;Username=tu-usuario;Password=tu-contraseña;"
 }
+```
 
 4. Aplicar las migraciones a la base de datos:
 dotnet ef database update
